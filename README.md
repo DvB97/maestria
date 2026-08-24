@@ -24,11 +24,11 @@ Luego abre la dirección indicada por el comando, normalmente `http://localhost:
 
 Inicio → privacidad y consentimiento → identificación simulada → perfil → instrucciones → evaluación de diez preguntas → revisión y edición → procesamiento visual → resultados → catálogo → detalle → comparación/favoritos.
 
-También incluye ayuda, FAQ, estados vacíos, validaciones, mensajes de confirmación y reinicio completo.
+También incluye una guía de uso de siete pasos accesible desde el menú y desde Ayuda, FAQ, estados vacíos, validaciones, mensajes de confirmación y reinicio completo.
 
 ## Evaluación y resultados simulados
 
-Cada opción suma pesos simples a una o más de seis áreas: tecnología, análisis, creatividad, comunicación, organización e interés social. Al confirmar, JavaScript totaliza y normaliza esos pesos para crear porcentajes demostrativos. Las afinidades de carreras combinan ese resultado con un valor mock de presentación.
+Cada opción suma pesos simples a una o más de seis áreas: tecnología, análisis, creatividad, comunicación, organización e interés social. Al confirmar, JavaScript totaliza y normaliza esos pesos para crear porcentajes demostrativos. Las 16 carreras tienen combinaciones distintas de esas áreas; su afinidad pondera varias dimensiones, considera de forma leve el interés inicial escrito y muestra las dos coincidencias principales como explicación.
 
 Este mecanismo no es Machine Learning, no entrena modelos y no realiza inferencias científicas. La pantalla de procesamiento representa conceptualmente cómo una eventual solución futura podría comunicar un proceso de análisis. Todos los resultados, porcentajes y recomendaciones están identificados como simulados y orientativos.
 

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Prototipo académico de orientación vocacional para estudiantes de Lima y Piura.">
+  <title>Brújula Vocacional 2026</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#app">Saltar al contenido</a>
+  <header class="topbar">
+    <button class="brand" data-route="inicio" aria-label="Ir al inicio"><span class="brand-mark">B</span><span>Brújula <b>Vocacional</b></span></button>
+    <button id="menuToggle" class="icon-btn menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav id="mainNav" aria-label="Navegación principal">
+      <button id="openGuide">Guía paso a paso</button>
+      <button data-route="resultados">Mis resultados</button>
+      <button data-route="carreras">Explorar carreras</button>
+      <button data-route="favoritos">Favoritos <span id="favoriteCount" class="count">0</span></button>
+      <button data-route="ayuda">Ayuda</button>
+    </nav>
+  </header>
+  <main id="app" tabindex="-1"></main>
+  <div id="guideOverlay" class="guide-overlay" hidden>
+    <section class="guide-card" role="dialog" aria-modal="true" aria-labelledby="guideTitle" aria-describedby="guideText">
+      <div class="guide-top"><span id="guideStep" class="simulated"></span><button id="closeGuide" class="icon-btn" aria-label="Cerrar guía">×</button></div>
+      <div id="guideIcon" class="guide-icon" aria-hidden="true"></div>
+      <h2 id="guideTitle"></h2>
+      <p id="guideText"></p>
+      <div class="guide-dots" id="guideDots" aria-hidden="true"></div>
+      <div class="guide-actions"><button id="guidePrevious" class="btn btn-secondary">← Anterior</button><button id="guideNext" class="btn btn-primary">Siguiente →</button></div>
+    </section>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <footer><span>Prototipo académico · Lima–Piura 2026</span><span>Resultados simulados y orientativos</span></footer>
+  <script src="js/mock-data.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
