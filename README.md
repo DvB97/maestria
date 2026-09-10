@@ -1,4 +1,4 @@
-# Brújula Vocacional 2026
+# Orientación Vocacional 2026
 
 Prototipo web interactivo de alta fidelidad para representar una experiencia de orientación vocacional dirigida a estudiantes de Lima Metropolitana y Piura. El proyecto sigue la documentación integral de los seis sprints y está pensado para evaluar usabilidad, comprensión y satisfacción.
 
@@ -36,17 +36,21 @@ Este mecanismo no es Machine Learning, no entrena modelos y no realiza inferenci
 
 `localStorage` conserva en el navegador: consentimiento, alias, perfil mínimo, respuestas, pregunta actual, resultados, favoritos y selección para comparación. La acción **Reiniciar experiencia** elimina esos datos.
 
-## Estructura
+## Estructura del repositorio
 
 ```text
-index.html
-css/
-  styles.css
-js/
-  app.js
-  mock-data.js
-  storage.js
-assets/
+prototipo-orientacion-vocacional/
+├── index.html
+├── css/
+│   └── estilos.css
+├── js/
+│   ├── app.js
+│   ├── mock-data.js
+│   └── storage.js
+├── assets/
+│   ├── imagenes/
+│   └── iconos/
+└── README.md
 ```
 
 ## Funcionalidades simuladas o no implementadas
@@ -56,4 +60,3 @@ assets/
 - La información de carreras debe validarse con fuentes institucionales antes de cualquier publicación real.
 
 > Este proyecto corresponde a un prototipo interactivo de alta fidelidad. Sus resultados, afinidades y recomendaciones no representan predicciones generadas por un modelo de Machine Learning ni sustituyen la decisión personal o el acompañamiento vocacional profesional.
-"# maestria" 

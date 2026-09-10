@@ -1,11 +1,11 @@
 window.MockData = (() => {
   const areas = {
-    tecnologia: { name: 'Tecnología', icon: '⌘', color: '#5b5bd6' },
-    analisis: { name: 'Análisis', icon: '◇', color: '#247f78' },
-    creatividad: { name: 'Creatividad', icon: '✦', color: '#d56a42' },
-    comunicacion: { name: 'Comunicación', icon: '◌', color: '#3876b9' },
-    organizacion: { name: 'Organización', icon: '▦', color: '#8260a8' },
-    social: { name: 'Interés social', icon: '♡', color: '#c14b70' }
+    tecnologia: { name: 'Tecnología', icon: '⌘', color: '#3D5AFE' },
+    analisis: { name: 'Análisis', icon: '◇', color: '#7C4DFF' },
+    creatividad: { name: 'Creatividad', icon: '✦', color: '#F59E0B' },
+    comunicacion: { name: 'Comunicación', icon: '◌', color: '#2E9D62' },
+    organizacion: { name: 'Organización', icon: '▦', color: '#252A33' },
+    social: { name: 'Interés social', icon: '♡', color: '#D64545' }
   };
 
   const option = (id, text, weights) => ({ id, text, weights });

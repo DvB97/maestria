@@ -4,17 +4,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="Prototipo académico de orientación vocacional para estudiantes de Lima y Piura.">
-  <title>Brújula Vocacional 2026</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <title>Orientación Vocacional 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;650;700;750;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
   <a class="skip-link" href="#app">Saltar al contenido</a>
   <header class="topbar">
-    <button class="brand" data-route="inicio" aria-label="Ir al inicio"><span class="brand-mark">B</span><span>Brújula <b>Vocacional</b></span></button>
+    <button class="brand" data-route="inicio" aria-label="Ir al inicio"><span class="brand-mark">OV</span><span>Orientación <b>Vocacional</b></span></button>
     <button id="menuToggle" class="icon-btn menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
     <nav id="mainNav" aria-label="Navegación principal">
-      <button id="openGuide">Guía paso a paso</button>
-      <button data-route="resultados">Mis resultados</button>
+      <button id="openGuide">Guía</button>
+      <button data-route="perfil">Mi perfil</button>
+      <button data-route="instrucciones">Evaluación</button>
+      <button data-route="resultados">Resultados</button>
       <button data-route="carreras">Explorar carreras</button>
       <button data-route="favoritos">Favoritos <span id="favoriteCount" class="count">0</span></button>
       <button data-route="ayuda">Ayuda</button>
